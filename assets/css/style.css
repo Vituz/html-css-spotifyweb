@@ -1,0 +1,33 @@
+.spoty_container{
+    width: 100%;
+    margin: 0 auto;
+    min-width: 1600px;
+}
+
+.dbg{
+    height: 100vh;
+}
+
+.top_banner{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 80px;
+    z-index: 1;
+}
+
+
+.left_nav{
+    background-color: black;
+    
+}
+
+.brani{
+    background-color: darkslategray;
+    
+}
+
+.icon_nav{
+    background-color: black;
+}
