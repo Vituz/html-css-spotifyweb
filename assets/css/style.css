@@ -17,7 +17,22 @@
     color: #A3A3A3;
 }
 
+.uppercase{
+    text-transform: uppercase;
+}
 
+.d_flex{
+    display: flex;
+}
+
+.center_middle{
+    justify-content: center;
+    align-items: center;
+}
+
+.column{
+    flex-direction: column;
+}
 /* /UTILITY */
 
 
@@ -41,6 +56,7 @@
  LEFT NAV MENU
  **********/
 
+ /* NAV MENU */
 .nav_menu{
     background-color: black;
     width: 250px;
@@ -52,28 +68,109 @@
     margin: 1rem;
     width: 65%;
 }
+/* /NAV MENU */
 
-.top_panel{
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    overflow-y: auto;
-    margin: auto;
-}
+/* CONTAINER MENU */
 
-.cont_menu a{
+
+.container_menu a{
     text-decoration: none;
     color: #A3A3A3;
     font-size: 0.9rem;
 }
+/* /CONTAINER MENU */
 
-.top_panel span{
+/* TOP MENU */
+.top_menu, .playlist{
+    width: 80%;
+    overflow-y: auto;
+    margin: auto;
+}
+
+.top_menu div{
     padding: 0.4rem 0;
 }
 
-.top_panel i{
-    font-size: 1.7rem;
+.top_menu img{
+    width: 1.8rem;
+    vertical-align: middle;
+    filter: opacity(0.7);
 }
+/* /TOP MENU */
+
+/* PLAYLIST */
+.playlist{
+   margin-top: 1rem;
+}
+
+.playlist h4{
+    color: white;
+ }
+
+ .playlist span{
+    vertical-align: middle;
+ }
+
+.create_playlist{
+    margin: 1rem 0;
+}
+
+.square{
+    width: 2rem;
+    height: 2rem;
+    background-color: #A3A3A3;
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.create_playlist span:last-child {
+    align-self: center;
+    padding-left: 0.7rem;
+}
+
+.playlist_list{
+    overflow-y: auto;
+}
+
+.playlist_list a{
+    margin: 0.5rem 0;
+}
+
+.download{
+    width: 80%;
+    margin: auto;
+}
+
+.download div:first-child img{
+    width: 1rem;
+}
+
+.download img{
+    
+    vertical-align: middle;
+    filter: opacity(0.7);
+}
+
+.download div:first-child{
+    border-bottom: 1px solid #A3A3A3;
+    padding-bottom: 0.7rem;
+}
+
+.download div:last-child{
+    padding-top: 0.7rem;
+    color: white;
+    font-weight: bold;
+}
+
+.circle{
+    border-radius: 100%;
+    background-color: #A3A3A3;
+    width: 1.7rem;
+}
+/* /PLAYLIST */
+
+
 
 
 /* ICON MENU */

@@ -56,26 +56,72 @@
                     <img src="./assets/img/logo.svg" alt="Logo Spotify">
                 </div>
 
-                <div class="cont_menu">
-                    <div class="top_panel">
+                <div class="container_menu d_flex column">
 
-                        <span>
-                            <i class="fas fa-home"></i>
-                            <a href="@">Home</a>
-                        </span>
+                    <!-- Top Panel -->
+                    <div class="top_menu d_flex column">
 
-                        <span>
-                            <i class="fas fa-search"></i>
-                            <a href="@">Cerca</a>
-                        </span>
+                        <!-- Home -->
+                        <div>
+                            <img src="./assets/img/home.svg" alt="">
+                            <a href="#">Home</a>
+                        </div>
 
-                        <span>
-                            <i class="fas fa-grip-lines-vertical"></i>
-                            <a href="@">La tua libreria</a>
-                        </span>
+                        <!-- Search -->
+                        <div>
+                            <img src="./assets/img/search.svg" alt="">
+                            <a href="#">Cerca</a>
+                        </div>
 
+                        <!-- Library                         -->
+                        <div>
+                            <img src="./assets/img/libreria.svg" alt="">
+                            <a href="#">La tua libreria</a>
+                        </div>
                     </div>
-                </div>
+
+                    <!-- Playlist -->
+                    <div class="playlist d_flex column">
+
+                        <!-- Titolo -->
+                        <h4 class="uppercase">
+                            Playlist
+                        </h4>
+
+                        <!-- Crea Playlist -->
+                        <a href="#" class="create_playlist d_flex">
+                            <span class="square d_flex center_middle">
+                                +
+                            </span>
+
+                            <span>
+                                Crea Playlist
+                            </span>
+                        </a>
+
+                        <!-- Lista Playlist -->
+                        <div class="playlist_list d_flex column">
+                            <a href="#">Nome Playlist</a>
+                            <a href="#">Nome Playlist</a>
+                            <a href="#">Nome Playlist</a>
+                            <a href="#">Nome Playlist</a>
+                            <a href="#">Nome Playlist</a>
+                            <a href="#">Nome Playlist</a>
+                            <a href="#">Nome Playlist</a>
+                        </div>
+                    </div>
+
+                    <div class="download">
+                        <div>
+                            <img src="./assets/img/download.svg" alt="">
+                            <a href="#">Installa app</a>
+                        </div>
+
+                        <div>
+                            <img class="circle" src="./assets/img/profile.svg" alt="">
+                            <a href="#">John Doe</a>
+                        </div>
+                    </div>
 
             </nav>
             <!-- /Nav Menu -->
