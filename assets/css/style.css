@@ -43,23 +43,6 @@
 }
 /* /UTILITY */
 
-
-/**********
- TOP BANNER 
- **********/
-
-.top_banner{
-    background-color: rgba(0, 0, 0, 0.5);
-    position: fixed;
-    top: 0;
-    right: 0;
-    height: 80px;
-    width: calc(100% - 250px);
-}
-
-/* /TOP BANNER */
-
-
 /**********
  LEFT NAV MENU
  **********/
@@ -142,6 +125,7 @@
 
 .playlist_list{
     overflow-y: auto;
+    height: 30vh;
 }
 
 .playlist_list a{
@@ -151,6 +135,7 @@
 .download{
     width: 80%;
     margin: 0 auto;
+    z-index: 1;
    
 }
 
@@ -205,6 +190,35 @@
  BRANI
  **********/
 
+ /* TOP BANNER */
+.top_banner{
+    background-color: rgba(0, 0, 0, 0.5);
+    float: right;
+    height: 80px;
+    width: 100%;
+    text-align: right;
+    
+}
+
+.top_banner span{
+    font-size: 0.8rem;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 0.8rem 2.5rem;
+    line-height: 80px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+/* /TOP BANNER */
+
+.sezione{
+    color: white;
+    font-size: 1.3rem;
+    margin: 2.5rem 0;
+}
+
 .brani{
     background-color: #141922;
     width: calc(100% - 250px);
@@ -212,6 +226,51 @@
     float: left;
 }
 
+.container_brani{
+    margin: auto;
+    width: 97%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+/* Menu Brani */
+.menu_brani{
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.menu_brani span{
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 0 1rem;
+
+}
+
+.card{
+    width: 240px;
+    height: 240px;
+    padding: 0.5rem 1rem 0.5rem 0;
+}
+
+.card img{
+    width: 100%;
+ }
+
+ .title{
+     text-align: center;
+ }
+
+ .title h4{
+     color: white;
+     font-size: 1.2rem;
+     margin: 0.7rem 0;
+ }
+
+ .title h5{
+     font-size: 0.7rem;
+ }
+
+/* /Menu Brani */
 /* /BRANI */
 
 
