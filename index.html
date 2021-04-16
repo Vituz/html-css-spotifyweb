@@ -56,61 +56,64 @@
                     <img src="./assets/img/logo.svg" alt="Logo Spotify">
                 </div>
 
-                <div class="container_menu d_flex column">
+                <div class="container_menu d_flex column justify_between">
 
                     <!-- Top Panel -->
-                    <div class="top_menu d_flex column">
+                    <div>
+                        <div class="top_menu d_flex column">
 
-                        <!-- Home -->
-                        <div>
-                            <img src="./assets/img/home.svg" alt="">
-                            <a href="#">Home</a>
+                            <!-- Home -->
+                            <div>
+                                <img src="./assets/img/home.svg" alt="">
+                                <a href="#">Home</a>
+                            </div>
+
+                            <!-- Search -->
+                            <div>
+                                <img src="./assets/img/search.svg" alt="">
+                                <a href="#">Cerca</a>
+                            </div>
+
+                            <!-- Library                         -->
+                            <div>
+                                <img src="./assets/img/libreria.svg" alt="">
+                                <a href="#">La tua libreria</a>
+                            </div>
                         </div>
 
-                        <!-- Search -->
-                        <div>
-                            <img src="./assets/img/search.svg" alt="">
-                            <a href="#">Cerca</a>
-                        </div>
+                        <!-- Playlist -->
+                        <div class="playlist d_flex column">
 
-                        <!-- Library                         -->
-                        <div>
-                            <img src="./assets/img/libreria.svg" alt="">
-                            <a href="#">La tua libreria</a>
+                            <!-- Titolo -->
+                            <h4 class="uppercase">
+                                Playlist
+                            </h4>
+
+                            <!-- Crea Playlist -->
+                            <a href="#" class="create_playlist d_flex">
+                                <span class="square d_flex center_middle">
+                                    +
+                                </span>
+
+                                <span>
+                                    Crea Playlist
+                                </span>
+                            </a>
+
+                            <!-- Lista Playlist -->
+                            <div class="playlist_list d_flex column">
+                                <a href="#">Nome Playlist</a>
+                                <a href="#">Nome Playlist</a>
+                                <a href="#">Nome Playlist</a>
+                                <a href="#">Nome Playlist</a>
+                                <a href="#">Nome Playlist</a>
+                                <a href="#">Nome Playlist</a>
+                                <a href="#">Nome Playlist</a>
+                            </div>
                         </div>
                     </div>
 
-                    <!-- Playlist -->
-                    <div class="playlist d_flex column">
-
-                        <!-- Titolo -->
-                        <h4 class="uppercase">
-                            Playlist
-                        </h4>
-
-                        <!-- Crea Playlist -->
-                        <a href="#" class="create_playlist d_flex">
-                            <span class="square d_flex center_middle">
-                                +
-                            </span>
-
-                            <span>
-                                Crea Playlist
-                            </span>
-                        </a>
-
-                        <!-- Lista Playlist -->
-                        <div class="playlist_list d_flex column">
-                            <a href="#">Nome Playlist</a>
-                            <a href="#">Nome Playlist</a>
-                            <a href="#">Nome Playlist</a>
-                            <a href="#">Nome Playlist</a>
-                            <a href="#">Nome Playlist</a>
-                            <a href="#">Nome Playlist</a>
-                            <a href="#">Nome Playlist</a>
-                        </div>
-                    </div>
-
+                    <!-- Download -->
                     <div class="download">
                         <div>
                             <img src="./assets/img/download.svg" alt="">
@@ -122,6 +125,7 @@
                             <a href="#">John Doe</a>
                         </div>
                     </div>
+                </div>
 
             </nav>
             <!-- /Nav Menu -->
@@ -145,7 +149,7 @@
             <!-- Footer -->
             <footer>
 
-                <div class="bot_nav">
+                <div class="bot_nav ">
 
                 </div>
             </footer>
