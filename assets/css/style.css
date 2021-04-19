@@ -380,8 +380,112 @@
     z-index: 2;
     height: 80px;
     background-color: #282828;
-
+    padding: 0.5rem;
 }
+
+/* LEFT CONTENT */
+
+/* .left_content{
+    width: 30%;
+} */
+
+.left_content img{
+    width: 3rem;
+    align-self: center;
+}
+
+.left_content div{
+    margin-left: 1rem;
+    align-self: center;
+}
+
+.left_content h3{
+    color: white;
+    font-size: 0.9rem;
+}
+
+.left_content h4{
+    font-size: 0.8rem;
+}
+
+.icon_left_cont{
+    padding-left: 1rem;
+}
+
+.icon_left_cont a{
+    text-decoration: none;
+    color: #A3A3A3;
+    margin-left: 0.5rem;
+}
+/* /LEFT CONTENT */
+
+/* MID CONTENT */
+
+/* Top */
+.top{
+    text-align: center;
+}
+
+.top li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 0.5rem;
+    vertical-align: middle;
+}
+
+.top a{
+    text-decoration: none;
+    color: white;
+}
+
+.fa-play-circle{
+    font-size: 1.7rem;
+    margin: 0 1rem;
+}
+/* /Top */
+
+/* Bot */
+
+.progress_bar, .progress_content{
+    margin-top: 1rem;
+    height: 0.2rem;
+    border-radius: 5px;
+}
+
+.progress_bar{
+    width: 25rem;
+    background-color: gray;
+    position: relative;
+}
+
+.progress_content{
+    background-color: lightgray;
+    width: 20%;
+}
+
+.progress_bar::before, .progress_bar::after{
+    position: absolute;
+    top: -7px;
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: white;
+}
+
+.progress_bar::before{
+    content: "0.25";
+    left: -60px;
+}
+
+.progress_bar::after{
+    content: "4.35";
+    right: -60px;
+}
+
+
+/* /Bot */
+
+/* /MID CONTENT */
+
 
 /* /BOTTOM MENU */
 
