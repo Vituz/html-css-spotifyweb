@@ -388,6 +388,9 @@
 /* .left_content{
     width: 30%;
 } */
+.left_content{
+    width:15%;
+}
 
 .left_content img{
     width: 3rem;
@@ -409,7 +412,7 @@
 }
 
 .icon_left_cont{
-    padding-left: 1rem;
+    /* padding-left: 0.2rem; */
 }
 
 .icon_left_cont a{
@@ -421,19 +424,23 @@
 
 /* MID CONTENT */
 
+.mid_content{
+    width: 70%;
+}
+
 /* Top */
 .top{
     text-align: center;
 }
 
-.top li{
+.icone li{
     display: inline-block;
     list-style: none;
     margin: 0 0.5rem;
     vertical-align: middle;
 }
 
-.top a{
+.top .icone a{
     text-decoration: none;
     color: white;
 }
@@ -446,19 +453,30 @@
 
 /* Bot */
 
-.progress_bar, .progress_content{
+.bot{
     margin-top: 1rem;
+    justify-content: center;
+    width: 100%;
+}
+.progress_bar, .progress_content, .volume_bar, .volume_content{
     height: 0.2rem;
     border-radius: 5px;
 }
 
-.progress_bar{
-    width: 25rem;
+.progress_bar, .volume_bar{
     background-color: gray;
     position: relative;
 }
 
-.progress_content{
+.progress_bar{
+    width: 30%;
+}
+
+.volume_bar{
+    width: 7rem;
+}
+
+.progress_content, .volume_content{
     background-color: lightgray;
     width: 20%;
 }
@@ -481,11 +499,22 @@
     right: -60px;
 }
 
-
 /* /Bot */
 
 /* /MID CONTENT */
 
+/* RIGHT MENU */
+
+.right_content{
+    width: 15%;
+}
+
+.icone a{
+    color: #A3A3A3;
+    text-decoration: none;
+}
+
+/* /RIGHT MENU */
 
 /* /BOTTOM MENU */
 
@@ -506,6 +535,34 @@
     
     .brano h5{
         font-size: 1vw;
+    }
+
+    .left_content{
+        width: 25%;
+    }
+
+    .mid_content{
+        width: 50%;
+    }
+
+    .right_content{
+        width: 25%;
+    }
+
+    .fa-play-circle {
+        margin: 0 0.3rem;
+    }
+
+    .progress_bar::before {
+        left: -35px;
+    }
+
+    .progress_bar::after {
+        right: -35px;
+    }
+
+    .progress_bar {
+        width: 50%;
     }
 }
 
@@ -538,5 +595,33 @@
 
     .brani{
         width: calc(100% - 50px);
+    }
+
+    .left_content{
+        width: 25%;
+    }
+
+    .mid_content{
+        width: 50%;
+    }
+
+    .right_content{
+        width: 25%;
+    }
+
+    .fa-play-circle {
+        margin: 0 0.3rem;
+    }
+
+    .progress_bar::before {
+        left: -35px;
+    }
+
+    .progress_bar::after {
+        right: -35px;
+    }
+
+    .progress_bar {
+        width: 50%;
     }
 }
