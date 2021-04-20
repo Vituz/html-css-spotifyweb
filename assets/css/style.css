@@ -94,7 +94,7 @@
     transform: scale(1.2);
 }
 
-.top_banner:hover a{
+.top_banner > a:hover{
     font-size: 1rem;
     border-radius: 25px;
 }
