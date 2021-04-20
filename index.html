@@ -26,14 +26,6 @@
 </head>
 
 <body>
-
-    <!-- Header -->
-    <header>
-
-
-    </header>
-    <!-- /Header -->
-
     <!-- Main -->
     <main>
         <div class="spoty_container">
@@ -53,20 +45,26 @@
 
                             <!-- Home -->
                             <div>
-                                <img src="./assets/img/home.svg" alt="Tasto Home">
-                                <a href="#">Home</a>
+                                <a class="selected" href="#">
+                                    <img src="./assets/img/home.svg" alt="Tasto Home">
+                                    Home
+                                </a>
                             </div>
 
                             <!-- Search -->
                             <div>
-                                <img src="./assets/img/search.svg" alt="Tasto Cerca">
-                                <a href="#">Cerca</a>
+                                <a class="selected" href="#">
+                                    <img src="./assets/img/search.svg" alt="Tasto Cerca">
+                                    Cerca
+                                </a>
                             </div>
 
-                            <!-- Library                         -->
+                            <!-- Library -->
                             <div>
-                                <img src="./assets/img/libreria.svg" alt="Tasto Libreria">
-                                <a href="#">La tua libreria</a>
+                                <a class="selected" href="#">
+                                    <img src="./assets/img/libreria.svg" alt="Tasto Libreria">
+                                    La tua libreria
+                                </a>
                             </div>
                         </div>
 
@@ -79,7 +77,7 @@
                             </h4>
 
                             <!-- Crea Playlist -->
-                            <a href="#" class="create_playlist d_flex">
+                            <a href="#" class="create_playlist d_flex selected">
                                 <span class="square d_flex center_middle">
                                     +
                                 </span>
@@ -91,13 +89,13 @@
 
                             <!-- Lista Playlist -->
                             <div class="playlist_list d_flex column">
-                                <a href="#">Nome Playlist</a>
-                                <a href="#">Nome Playlist</a>
-                                <a href="#">Nome Playlist</a>
-                                <a href="#">Nome Playlist</a>
-                                <a href="#">Nome Playlist</a>
-                                <a href="#">Nome Playlist</a>
-                                <a href="#">Nome Playlist</a>
+                                <a class="selected" href="#">Nome Playlist</a>
+                                <a class="selected" href="#">Nome Playlist</a>
+                                <a class="selected" href="#">Nome Playlist</a>
+                                <a class="selected" href="#">Nome Playlist</a>
+                                <a class="selected" href="#">Nome Playlist</a>
+                                <a class="selected" href="#">Nome Playlist</a>
+                                <a class="selected" href="#">Nome Playlist</a>
                             </div>
                         </div>
                     </div>
@@ -105,8 +103,10 @@
                     <!-- Download -->
                     <div class="download">
                         <div>
-                            <img src="./assets/img/download.svg" alt="">
-                            <a href="#">Installa app</a>
+                            <a class="selected" href="#">
+                                <img src="./assets/img/download.svg" alt="">
+                                Installa app
+                            </a>
                         </div>
 
                         <div>
@@ -131,21 +131,21 @@
                     <ul>
                         <li>
                             <!-- Home -->
-                            <a href="#">
+                            <a class="selected" href="#">
                                 <img src="./assets/img/home.svg" alt="Tasto Home">
                             </a>
                         </li>
 
                         <!-- Search -->
                         <li>
-                            <a href="#">
+                            <a class="selected" href="#">
                                 <img src="./assets/img/search.svg" alt="Tasto Cerca">
                             </a>
                         </li>
 
                         <!-- Libreria -->
                         <li>
-                            <a href="#">
+                            <a class="selected" href="#">
                                 <img src="./assets/img/libreria.svg" alt="Tasto Libreria">
                             </a>
                         </li>
@@ -156,7 +156,7 @@
                     <ul>
                         <!-- Download -->
                         <li>
-                            <a href="#">
+                            <a class="selected" href="#">
                                 <img class="w-1" src="./assets/img/download.svg" alt="Tasto Download">
                             </a>
                         </li>
@@ -178,9 +178,9 @@
 
                 <!-- Top Banner -->
                 <div class="top_banner clearfix">
-                    <span class="uppercase">
+                    <a href="#" class="uppercase">
                         effettua l'upgrade
-                    </span>
+                    </a>
                 </div>
                 <!-- /Top Banner -->
 
@@ -191,37 +191,37 @@
 
                         <ul>
                             <li>
-                                <a href="#">
+                                <a class="selected" href="#">
                                     in evidenza
                                 </a href="#">
                             </li>
 
                             <li>
-                                <a href="#">
+                                <a class="selected" href="#">
                                     podcast
                                 </a href="#">
                             </li>
 
                             <li>
-                                <a href="#">
+                                <a class="selected" href="#">
                                     classifiche
                                 </a href="#">
                             </li>
 
                             <li>
-                                <a href="#">
+                                <a class="selected" href="#">
                                     generi e mood
                                 </a href="#">
                             </li>
 
                             <li>
-                                <a href="#">
+                                <a class="selected" href="#">
                                     nuove uscite
                                 </a href="#">
                             </li>
 
                             <li>
-                                <a href="#">
+                                <a class="selected" href="#">
                                     scopri
                                 </a href="#">
                             </li>
@@ -238,8 +238,11 @@
                     <div class="d_flex f_wrap">
 
                         <!-- Brano -->
-                        <div class="brano">
+                        <a href="#" class="brano">
                             <img src="./assets/img/metal_lifting.jpg" alt="Copertina brano Heavy Metal">
+
+                            <i class="far fa-play-circle"></i>
+
                             <h4>
                                 Heavy Metal
                             </h4>
@@ -247,12 +250,15 @@
                             <h5>
                                 subtitle
                             </h5>
-                        </div>
+                        </a>
                         <!-- /Brano -->
 
                         <!-- Brano -->
-                        <div class="brano">
+                        <a href="#" class="brano">
                             <img src="./assets/img/stranger.jpeg" alt="Copertina brano\ Stranger Things">
+
+                            <i class="far fa-play-circle"></i>
+
                             <h4>
                                 Stranger Things, Vol. 1 (a Netflix Original Soundtrack)
                             </h4>
@@ -260,12 +266,15 @@
                             <h5>
                                 Kyle Dixon & Michael Stain
                             </h5>
-                        </div>
+                        </a>
                         <!-- /Brano -->
 
                         <!-- Brano -->
-                        <div class="brano">
+                        <a href="#" class="brano">
                             <img src="./assets/img/aquietplace.jpeg" alt="Copertina brano\ A Queit Place">
+
+                            <i class="far fa-play-circle"></i>
+
                             <h4>
                                 A quiet place
                             </h4>
@@ -273,12 +282,15 @@
                             <h5>
                                 subtitle
                             </h5>
-                        </div>
+                        </a>
                         <!-- /Brano -->
 
                         <!-- Brano -->
-                        <div class="brano">
+                        <a href="#" class="brano">
                             <img src="./assets/img/split.jpeg" alt="Copertina brano Heavy Metal">
+
+                            <i class="far fa-play-circle"></i>
+
                             <h4>
                                 Split
                             </h4>
@@ -286,12 +298,15 @@
                             <h5>
                                 subtitle
                             </h5>
-                        </div>
+                        </a>
                         <!-- /Brano -->
 
                         <!-- Brano -->
-                        <div class="brano">
+                        <a href="#" class="brano">
                             <img src="./assets/img/cure.jpeg" alt="Copertina brano\ Stranger Things">
+
+                            <i class="far fa-play-circle"></i>
+
                             <h4>
                                 A cure for wellnes
                             </h4>
@@ -299,12 +314,15 @@
                             <h5>
                                 subtitle
                             </h5>
-                        </div>
+                        </a>
                         <!-- /Brano -->
 
                         <!-- Brano -->
-                        <div class="brano">
+                        <a href="#" class="brano">
                             <img src="./assets/img/sinister.jpeg" alt="Copertina brano\ A Queit Place">
+
+                            <i class="far fa-play-circle"></i>
+
                             <h4>
                                 Sinister
                             </h4>
@@ -312,7 +330,7 @@
                             <h5>
                                 subtitle
                             </h5>
-                        </div>
+                        </a>
                         <!-- /Brano -->
 
                     </div>
@@ -331,8 +349,11 @@
                         </h5>
 
                         <!-- Brano -->
-                        <div class="brano col-lg-6">
+                        <div class="brano col-lg-6 top-30">
                             <img src="./assets/img/radar.jpeg" alt="Copertina Il tuo Release Radar">
+
+                            <i class="far fa-play-circle"></i>
+
                             <h4>
                                 Release Radar
                             </h4>
@@ -340,8 +361,11 @@
                         <!-- /Brano -->
 
                         <!-- Brano -->
-                        <div class="brano col-lg-6">
+                        <div class="brano col-lg-6 top-30">
                             <img src="./assets/img/mixdaily.jpeg" alt="Copertina Daily Mix 1">
+
+                            <i class="far fa-play-circle"></i>
+
                             <h4>
                                 Daily Mix 1
                             </h4>
@@ -364,8 +388,11 @@
                         </h5>
 
                         <!-- Artista -->
-                        <div class="brano col-lg-6">
+                        <div class="brano col-lg-6 top-30">
                             <img class="circle_image" src="./assets/img/youg.jpeg" alt="Copertina Il tuo Release Radar">
+
+                            <i class="far fa-play-circle"></i>
+
                             <h4>
                                 Lana Del Rey
                             </h4>
@@ -373,8 +400,11 @@
                         <!-- /Artista -->
 
                         <!-- Artista -->
-                        <div class="brano col-lg-6">
+                        <div class="brano col-lg-6 top-30">
                             <img class="circle_image" src="./assets/img/einaudi.jpeg" alt="Copertina Daily Mix 1">
+
+                            <i class="far fa-play-circle"></i>
+
                             <h4>
                                 Ludovico Einaudi
                             </h4>
@@ -414,14 +444,14 @@
 
                             <!-- Icona Preferiti -->
                             <span>
-                                <a href="#">
+                                <a class="selected" href="#">
                                     <i class="far fa-heart"></i>
                                 </a>
                             </span>
 
                             <!-- Icona Cartella -->
                             <span>
-                                <a href="#">
+                                <a class="selected" href="#">
                                     <i class="far fa-folder"></i>
                                 </a>
                             </span>
@@ -448,7 +478,7 @@
                                 </li>
 
                                 <li>
-                                    <a href="#">
+                                    <a class=".scale" href="#">
                                         <i class="far fa-play-circle"></i>
                                     </a>
                                 </li>
@@ -473,7 +503,9 @@
 
                             <div class="progress_bar">
                                 <a href="#">
-                                    <div class="progress_content"></div>
+                                    <div class="progress_content">
+                                        <i class="fas fa-circle"></i>
+                                    </div>
                                 </a>
                             </div>
                         </div>
@@ -485,19 +517,19 @@
                     <div class="right_content d_flex center_middle">
                         <ul class="icone">
                             <li>
-                                <a href="#">
+                                <a class="selected" href="#">
                                     <i class="fas fa-list-ul"></i>
                                 </a>
                             </li>
 
                             <li>
-                                <a href="#">
+                                <a class="selected" href="#">
                                     <i class="fas fa-desktop"></i>
                                 </a>
                             </li>
 
                             <li>
-                                <a href="#">
+                                <a class="selected" href="#">
                                     <i class="fas fa-volume-up"></i>
                                 </a>
                             </li>
@@ -505,7 +537,9 @@
                             <li>
                                 <a href="#">
                                     <div class="volume_bar">
-                                        <div class="volume_content"></div>
+                                        <div class="volume_content">
+                                            <i class="fas fa-circle"></i>
+                                        </div>
                                     </div>
                                 </a>
                             </li>

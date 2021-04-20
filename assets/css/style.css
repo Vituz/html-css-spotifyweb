@@ -65,6 +65,64 @@
     width: 1rem;
 }
 
+.selected:hover, .selected:hover img{
+    color: white;
+    filter: opacity(1);
+}
+
+.selected:hover .square{
+    background-color: white;
+}
+
+.volume_bar:hover .volume_content, .progress_bar:hover .progress_content{
+    background-color: #86C62B;
+}
+
+.volume_bar:hover .fa-circle, .progress_bar:hover .fa-circle{
+    color: lightgray;
+}
+
+.fa-circle{
+    color: transparent;
+    position: absolute;
+    top: -4px;
+    right: -10px;
+    font-size: 0.7rem;
+}
+
+.fa-play-circle:hover {
+    transform: scale(1.2);
+}
+
+.top_banner:hover a{
+    font-size: 1rem;
+    border-radius: 25px;
+}
+
+.brano:hover img{
+    filter: brightness(0.6);
+}
+
+.brano:hover .fa-play-circle{
+    display: block;
+}
+
+.brano > .fa-play-circle, .top-30 > .fa-play-circle{
+    display: none;
+    position: absolute;
+    left: 30%;
+    font-size: 4rem;
+    color: white;
+}
+
+.brano > .fa-play-circle{
+    top: 25%;
+}
+
+.top-30 > .fa-play-circle{
+    top: 30%;
+}
+
 /* /UTILITY */
 
 /**********
@@ -266,17 +324,19 @@
     position: absolute;
     top: 0;
     right: 0;
+    z-index: 2;
 }
 
-.top_banner span{
+.top_banner a{
     font-size: 0.8rem;
     color: white;
     border: 1px solid white;
-    border-radius: 20px;
+    border-radius: 25px;
     padding: 0.8rem 2.5rem;
     line-height: 80px;
     margin-right: 50px;
     font-weight: bold;
+    text-decoration: none;
 }
 
 /* /TOP BANNER */
@@ -346,10 +406,13 @@
 }
 
 .brano{
+    position: relative;
     text-align: center;
     width: calc(100% / 7);
     margin-right: 1rem;
     margin-top: 2rem;
+    text-decoration: none;
+    z-index: 1;
 }
 
 /* /Menu Brani */
@@ -365,6 +428,7 @@
 
 .brano h5{
     font-size: 0.8vw;
+    color: #A3A3A3;
 }
 /* /BRANI */
 
@@ -479,6 +543,7 @@
 .progress_content, .volume_content{
     background-color: lightgray;
     width: 20%;
+    position: relative;
 }
 
 .progress_bar::before, .progress_bar::after{
