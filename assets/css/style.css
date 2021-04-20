@@ -123,6 +123,11 @@
     top: 30%;
 }
 
+.left_content a:hover{
+    color: white;
+    border-bottom: 1px solid white;
+}
+
 /* /UTILITY */
 
 /**********
@@ -471,8 +476,10 @@
     font-size: 0.9rem;
 }
 
-.left_content h4{
+.left_content a{
     font-size: 0.8rem;
+    text-decoration: none;
+    color: #A3A3A3;
 }
 
 .icon_left_cont a{
